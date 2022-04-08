@@ -12,6 +12,12 @@ public class GCD {
 
     public int gcd(int a, int b) {
 
+//        unintentional case -the constraint
+
+        if (a < 0 || b < 0) {
+            return -1;
+        }
+
 //        base condition - stopping criterion
         if (b == 0) {
             return a;

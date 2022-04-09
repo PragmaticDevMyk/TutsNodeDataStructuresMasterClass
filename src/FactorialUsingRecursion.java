@@ -22,5 +22,6 @@ public class FactorialUsingRecursion {
 
 //        recursive cae - the flow
         return n * factorial(n - 1);
+
     }
 }
